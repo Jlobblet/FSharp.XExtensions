@@ -4,7 +4,7 @@
         <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
         <PackageId>FSharp.XExtensions</PackageId>
         <PackageTitle>FSharp.XExtensions</PackageTitle>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.1.0</PackageVersion>
         <Authors>Jlobblet</Authors>
         <PackageProjectUrl>https://github.com/Jlobblet/FSharp.XExtensions</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
