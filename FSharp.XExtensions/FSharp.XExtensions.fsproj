@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="XCData.fs" />
+        <Compile Include="XComment.fs" />
+        <Compile Include="XContainer.fs" />
+        <Compile Include="XDocumentType.fs" />
+        <Compile Include="XElement.fs" />
+        <Compile Include="XNode.fs" />
+        <Compile Include="XProcessingInstruction.fs" />
+        <Compile Include="XStreamingElement.fs" />
+        <Compile Include="XText.fs" />
+    </ItemGroup>
+
+</Project>
