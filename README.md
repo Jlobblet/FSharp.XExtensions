@@ -7,7 +7,7 @@ This library gives all of the classes in the `System.Xml.Linq` namespace overloa
 
 In C#, `string`s are allowed to be implicitly converted into `XName`s.
 ```c#
-public XAttribute Foobar(XElement element) => element.Attribute("attr" /* implict conversion*/);
+public XAttribute Foobar(XElement element) => element.Attribute("attr" /* implict conversion */);
 ```
 This is not the case in F#, making code that deals with XML quite non-ergonomic at times.
 ```f#
