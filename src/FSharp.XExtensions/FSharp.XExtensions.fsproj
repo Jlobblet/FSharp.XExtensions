@@ -2,6 +2,15 @@
 
     <PropertyGroup>
         <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+        <PackageId>FSharp.XExtensions</PackageId>
+        <PackageTitle>FSharp.XExtensions</PackageTitle>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>Jlobblet</Authors>
+        <PackageProjectUrl>https://github.com/Jlobblet/FSharp.XExtensions</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/Jlobblet/FSharp.XExtensions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>F#;FSharp;functional programming;xml;xelement;xnode;xdocument;system.xml.linq;</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
