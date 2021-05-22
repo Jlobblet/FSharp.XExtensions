@@ -4,7 +4,7 @@ I got fed up of having to write `XName.Get` so I wrote this library.
 
 ## NuGet
 
-Soon.
+https://www.nuget.org/packages/FSharp.XExtensions/1.0.0
 
 ## Contributing
 
