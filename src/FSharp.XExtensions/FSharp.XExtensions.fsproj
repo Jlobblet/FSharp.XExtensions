@@ -25,4 +25,8 @@
         <Compile Include="XText.fs" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="../../LICENSE" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
+    
 </Project>
