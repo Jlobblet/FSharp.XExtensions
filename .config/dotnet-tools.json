@@ -7,12 +7,12 @@
       "commands": [
         "fake"
       ]
+    },
+    "fantomas-tool": {
+      "version": "4.4.0",
+      "commands": [
+        "fantomas"
+      ]
     }
-  },
-  "fantomas-tool": {
-    "version": "4.4.0",
-    "commands": [
-      "fantomas"
-    ]
   }
 }

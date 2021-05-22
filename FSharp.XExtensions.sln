@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.XExtensions", "FSharp.XExtensions\FSharp.XExtensions.fsproj", "{C6DA9A17-7E7F-4527-8808-20AEF7FF70D1}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.XExtensions", "src\FSharp.XExtensions\FSharp.XExtensions.fsproj", "{2076B5BC-A4F9-47BD-AA40-5290FEBAA639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6DA9A17-7E7F-4527-8808-20AEF7FF70D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6DA9A17-7E7F-4527-8808-20AEF7FF70D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6DA9A17-7E7F-4527-8808-20AEF7FF70D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6DA9A17-7E7F-4527-8808-20AEF7FF70D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2076B5BC-A4F9-47BD-AA40-5290FEBAA639}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2076B5BC-A4F9-47BD-AA40-5290FEBAA639}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2076B5BC-A4F9-47BD-AA40-5290FEBAA639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2076B5BC-A4F9-47BD-AA40-5290FEBAA639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
