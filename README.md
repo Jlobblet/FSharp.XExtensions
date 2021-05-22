@@ -21,7 +21,7 @@ let Foobar (element: XElement) = element.Attribute "attr" // Hoorah!
 
 ## NuGet
 
-https://www.nuget.org/packages/FSharp.XExtensions/1.0.0
+https://www.nuget.org/packages/FSharp.XExtensions
 
 ## Contributing
 
