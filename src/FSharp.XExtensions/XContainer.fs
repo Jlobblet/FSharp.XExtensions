@@ -1,13 +1,15 @@
-module FSharp.XExtensions.XContainer
+namespace FSharp.XExtensions
 
 open System.Xml.Linq
 
-type XContainer with
-    member this.Ancestors = XName.Get >> this.Ancestors
-    member this.Descendants = XName.Get >> this.Ancestors
-    member this.Element = XName.Get >> this.Element
-    member this.Elements = XName.Get >> this.Elements
-    member this.ElementsAfterSelf = XName.Get >> this.ElementsAfterSelf
-    member this.ElementsBeforeSelf = XName.Get >> this.ElementsBeforeSelf
+[<AutoOpen>]
+module XContainer =
+    type XContainer with
+        member this.Ancestors name = name |> XName.Get |> this.Ancestors
+        member this.Descendants name = name |> XName.Get |> this.Ancestors
+        member this.Element name = name |> XName.Get |> this.Element
+        member this.Elements name = name |> XName.Get |> this.Elements
+        member this.ElementsAfterSelf name = name |> XName.Get |> this.ElementsAfterSelf
+        member this.ElementsBeforeSelf name = name |> XName.Get |> this.ElementsBeforeSelf
     
     

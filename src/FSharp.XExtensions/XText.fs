@@ -1,8 +1,10 @@
-module FSharp.XExtensions.XText
+namespace FSharp.XExtensions
 
 open System.Xml.Linq
 
-type XText with
-    member this.Ancestors = XName.Get >> this.Ancestors
-    member this.ElementsAfterSelf = XName.Get >> this.ElementsAfterSelf
-    member this.ElementsBeforeSelf = XName.Get >> this.ElementsBeforeSelf
+[<AutoOpen>]
+module XText =
+    type XText with
+        member this.Ancestors name = name |> XName.Get |> this.Ancestors
+        member this.ElementsAfterSelf name = name |> XName.Get |> this.ElementsAfterSelf
+        member this.ElementsBeforeSelf name = name |> XName.Get |> this.ElementsBeforeSelf
