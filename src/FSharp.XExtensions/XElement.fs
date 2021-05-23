@@ -7,9 +7,9 @@ open System.Xml.Linq
 module XElement =
     type XElement with
         // Factory methods since can't extend with new constructors
-        member this.Create name = name |> XName.Get |> XElement
-        member this.Create(name, content: Object) = XElement(XName.Get name, content)
-        member this.Create(name, [<ParamArray>] content) = XElement(XName.Get name, content)
+        static member Create name = name |> XName.Get |> XElement
+        static member Create(name, content: Object) = XElement(XName.Get name, content)
+        static member Create(name, [<ParamArray>] content) = XElement(XName.Get name, content)
         // Methods
         member this.Ancestors name = name |> XName.Get |> this.Ancestors
         member this.AncestorsAndSelf name = name |> XName.Get |> this.Ancestors
