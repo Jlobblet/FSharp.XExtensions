@@ -23,3 +23,5 @@ module XElement =
         member this.ElementsBeforeSelf name = name |> XName.Get |> this.ElementsBeforeSelf
         member this.SetAttributeValue(name, value) = this.SetAttributeValue(XName.Get name, value)
         member this.SetElementValue(name, value) = this.SetElementValue(XName.Get name, value)
+        member this.TryElement (name: string) = this.Element name |> Option.ofObj
+        member this.TryAttribute (name: string) = this.Attribute name |> Option.ofObj
